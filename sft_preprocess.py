@@ -18,7 +18,7 @@ def args_parser():
     parser.add_argument("--data_name", type=list, default=["explanation"],
                         help="Name of the datasets")
 
-    parser.add_argument("--save_dir", type=str, default="D:/Downloads")
+    parser.add_argument("--save_dir", type=str, default="./data")
 
 
     args = parser.parse_args()
